@@ -15,6 +15,17 @@ a {
   text-decoration: none;
 
 }
+.mint-logo {
+  height: 20px;
+}
+
+.quick-logo {
+  height: 20px;
+}
+
+.turbo-logo {
+  height: 20px;
+}
 
 
 .readMore {
@@ -62,15 +73,18 @@ h1 {
 }
 
 .whitebox {
-  background-color: white;
   font-size: 16px;
   border-radius: 2px;
   display:block;
-  margin: 35%;
   margin-top: 10px;
-  padding: 2%;
-  border-color: gray;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
+  margin-left: 40%;
+  margin-right: 30%;
+  padding: 30px;
+  max-width: 380px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(186, 190, 197);
+ 
 }
 
 .encabezado {
@@ -106,14 +120,21 @@ h1 {
   text-align: center;
   font-size: 19px;
 }
-.graybox {
+.captcha {
   background-color: #d4d7dc ;
-  padding: 0;
-  border-radius: 0%;
-  margin-top: 0%;
-  height: 100px;
-  width: 1000px;
+  margin-top: 30px;
+  margin-bottom: -30px;
+  margin-left: -30px;
+  margin-left: -30px;
+  padding: 16px;
   text-align: center;
-  align-items: center;
-
 }
+
+.liLegal {
+  text-align: center;
+}
+
+.coLegal {
+  text-align: center;
+}
+
