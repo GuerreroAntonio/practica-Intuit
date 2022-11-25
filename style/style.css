@@ -1,7 +1,6 @@
 * {
-  /* background-color: palevioletred; */
   max-width: 100%;
- 
+  box-sizing: border-box;
 } 
 
  body {
@@ -47,6 +46,13 @@ a {
   margin: 12px;
 }
 
+.email {
+  background-color: black;
+  color: floralwhite ;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
 .HeadPage {
   margin: 12px;
   text-align: center;
@@ -69,9 +75,20 @@ a {
 .btn-a {
   margin: 20px;
   background-color: blue;
-  color: white
+  color: white;
+  align-items: center;
+  
+}
+.cbox1 {
+  border-radius: 15px;
+  border: #d4d7dc;
 }
 
+.ch {
+  align-items: center;
+  display: flex ;
+  padding: 25px 30px;
+}
 
 .int-mail {
   margin: 30px;
@@ -100,12 +117,12 @@ a {
   text-align: center;
 }
 .captcha {
-font-size: 12px;
-display: block;
+  font-size: 12px;
+  display: block;
   background-color: #d4d7dc;;
   text-align: center;
   color: grey;
-  padding: 1px;
+  padding: 16px;
   border-color: black;
 }
 
@@ -119,4 +136,60 @@ display: block;
   text-align: center;
 }
 
+.sign-in {
+  font-size: 100%;
+  padding: 6px 12px;
+  text-align: center;
+  border-color: white;
+  line-height: 1.428571429;
+  background-color: #0077c5;
+  width: 100%;
+  height: 44px;
+}
 
+.email-box {
+  display: block; 
+  max-width: 100%;  
+  border-radius: 5px; 
+  border-color: tomato; 
+  font-size: 1.2em;
+  min-width: 160px;
+  box-shadow: 15px;
+  line-height: 1.3em;
+  padding-left: 8px;
+  padding-right: 6px;
+  width: 320px;
+  font-weight: normal;
+}
+
+.email-box:focus {
+  border: 1px solid rgba(82,168,236,.8);
+  box-shadow: inset 0 1px 1px #fff, 0 0 8px #52a8ec;
+  box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(82 168 236 / 60%);
+  outline: 0 none;
+}
+
+.lock-image {
+  position: absolute;
+  top: 26px;
+  left: 113px;
+}
+
+.flex {
+  display: flex;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.w-100 {
+  width: 100%;
+}
+.jc-c {
+  justify-content: center;
+}

@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Intuit Accounts - Sign in</title>
+  <link rel="stylesheet" href="style/reset.css">
   <link rel="stylesheet" href="style/style.css">
 </head>
 
@@ -11,7 +12,7 @@
 <h1>Intuit</h1>
 </div>
 <div class="HeadPage">
-  <img class="mint-logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCI+PGcgZmlsbD0ibm9uZSI+PGNpcmNsZSBjeD0iMTAiIGN5PSIxMCIgcj0iMTAiIGZpbGw9IiMwMEE2QTQiLz48cGF0aCBmaWxsPSIjRkZGIiBkPSJNMTAgMi43NzdjLS42NTguNjYtNS4xNzQgNS4zMDktNS4xNzQgOC45MyAwIDIuNTc4IDIuMDU1IDMuNDMyIDUuMTc0IDUuNTU0IDMuMTItMi4xMjIgNS4xNzQtMi45NzYgNS4xNzQtNS41NTQgMC0zLjYyMS00LjUxNS04LjI3LTUuMTc0LTguOTN6bTAgMTIuNzQ4LS42MDctLjM5N2MtMi4zMi0xLjUxMS0zLjEyMy0yLjEwMS0zLjEyMy0zLjQyMSAwLTIuMDQ0IDIuMDI4LTQuODg4IDMuNzMtNi44MTZ2MTAuNjM0eiIvPjwvZz48L3N2Zz4=" alt="mintlogo"> <a class="inicio" href="/mint-logo.jpg">mint</a>
+  <img class="mint-logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCI+PGcgZmlsbD0ibm9uZSI+PGNpcmNsZSBjeD0iMTAiIGN5PSIxMCIgcj0iMTAiIGZpbGw9IiMwMEE2QTQiLz48cGF0aCBmaWxsPSIjRkZGIiBkPSJNMTAgMi43NzdjLS42NTguNjYtNS4xNzQgNS4zMDktNS4xNzQgOC45MyAwIDIuNTc4IDIuMDU1IDMuNDMyIDUuMTc0IDUuNTU0IDMuMTItMi4xMjIgNS4xNzQtMi45NzYgNS4xNzQtNS41NTQgMC0zLjYyMS00LjUxNS04LjI3LTUuMTc0LTguOTN6bTAgMTIuNzQ4LS42MDctLjM5N2MtMi4zMi0xLjUxMS0zLjEyMy0yLjEwMS0zLjEyMy0zLjQyMSAwLTIuMDQ0IDIuMDI4LTQuODg4IDMuNzMtNi44MTZ2MTAuNjM0eiIvPjwvZz48L3N2Zz4=" alt="mintlogo"> <a class="inicio" href="javascript:void();">mint</a>
 
   <img class="quick-logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii01OTguNSA5NzEuNSA1MCA1MCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAtNTk4LjUgOTcxLjUgNTAgNTAiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxjaXJjbGUgY3g9Ii01NzMuNSIgY3k9Ijk5Ni41IiByPSIyNSIgc3R5bGU9ImZpbGw6IzJjYTAxYyIvPjxwYXRoIGQ9Ik0tNTkxLjUgOTk2LjVjMCA1LjQgNC40IDkuOCA5LjggOS44aDEuNHYtMy42aC0xLjRjLTMuNCAwLTYuMi0yLjgtNi4yLTYuMnMyLjgtNi4yIDYuMi02LjJoMy40djE4LjhjMCAyIDEuNiAzLjYgMy42IDMuNnYtMjYuMmgtN2MtNS42LjItOS44IDQuNi05LjggMTB6bTI2LjQtOS44aC0xLjR2My42aDEuNGMzLjQgMCA2LjIgMi44IDYuMiA2LjJzLTIuOCA2LjItNi4yIDYuMmgtMy40di0xOC44YzAtMi0xLjYtMy42LTMuNi0zLjZ2MjYuMmg3YzUuNCAwIDkuOC00LjQgOS44LTkuOC0uMi01LjYtNC40LTEwLTkuOC0xMHoiIHN0eWxlPSJmaWxsOiNmZmYiLz48L3N2Zz4=" alt="quickbooks-logo">
   <a class="inicio" href="/mint-logo.jpg">quickbooks</a>
@@ -34,7 +35,7 @@
    <!-- pendiente del boton -->
    <div class="int-mail">
       <label>
-         <input type="email" name="imail" id="email">
+         <input type="#" id="email" class="email-box">
       </label>
    </div>
    <!-- pendiente del boton -->
@@ -44,12 +45,13 @@
    </div>
    
    <div class="rememberme">
-      <div>
-      <label><input type="checkbox" id="cbox1" value="first_checkbox"> Remember me</label>
+      <div class="ch">
+      <label><input type="checkbox" id="cbox1" value="first_checkbox" checked  > Remember me</label>
    </div> 
      
-   <div>
-      <input class="btn-a " type="button" value="sign in">
+   <div class="flex jc-c relative w-100">
+      <img class="lock-image" src="https://img.icons8.com/ios-filled/32/null/unlock-2.png"/>
+      <input class="btn-a sign-in" type="button" value=" SIGN IN" >
    </div>
 </div>
 <!-- botonacceso             -->
@@ -66,7 +68,8 @@
          
       <!-- caja gris adendro de blanca        -->
       <div class="captcha">
-         <p>invisible reCAPTCHA by Google <a href="https://policies.google.com/privacy?hl=en">privacy policy</a> and <a href="https://policies.google.com/terms?hl=en">Terms of use</a></p>
+
+         <span>invisible reCAPTCHA by Google <a href="https://policies.google.com/privacy?hl=en">privacy policy</a> and <a href="https://policies.google.com/terms?hl=en">Terms of use</a></span>
       </div>
    </div>
 
