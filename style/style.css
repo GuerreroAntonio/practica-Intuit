@@ -149,7 +149,7 @@ a {
 
 hr {
   opacity: 30%;
-  border: 1;
+  border: 1px;
   border-top-width: 0px;
   display: block;
   height: 1px;
@@ -197,7 +197,6 @@ hr {
   border-color: red ;
   font-size: 1.2em;
   min-width: 160px;
-  box-shadow: 15px;
   line-height: 1.3em;
   padding-left: 8px;
   padding-right: 6px;
