@@ -1,22 +1,20 @@
 * {
   max-width: 100%;
   box-sizing: border-box;
+  position:relative;
+
 } 
 
  body {
-   background-color: #d4d7dc;
+   background-color: #eaedf0;
 }
 
 h1 {
+  position: relative;
   color: blue;
   text-align: center;
   font-size: 35px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
-}
-
-.inicio {
-  text-decoration: none;
-  color: gray;
 }
 
 a {
@@ -26,24 +24,45 @@ a {
 
 .mint-logo {
   height: 20px;
-  margin: 12px;
+  margin: 5px;
 }
 
 .quick-logo {
-  margin: 12px;
+  margin: 5px;
   height: 20px;
 }
 
 .turbo-logo {
+  margin: 5px;
   height: 20px;
-  margin: 12px;
 }
+.inicio1 {
+  position: relative;
+  bottom: 10px;
+  color: gray;
+}
+.inicio2 {
+  color: gray;
+
+  position: relative;
+  bottom: 10px;
+}
+.inicio3 {
+  color: gray;
+  position: relative;
+  bottom: 10px;
+}
+
 
 .readMore {
   text-align: center;
   color: gray;
   font-size: 12px;
   margin: 12px;
+}
+
+.le-more {
+  font-size: 12px;
 }
 
 .email {
@@ -60,9 +79,9 @@ a {
 }
 .whitebox {
   background-color: white;
-  margin: 2% 37% 2% 37%;
+  margin: 1% 37% 2% 37%;
   border: 1px solid;
-  border-color: gray;
+  border-color: rgb(163, 161, 161);
   border-radius: 3px;
 }
 
@@ -82,48 +101,69 @@ a {
 .cbox1 {
   border-radius: 15px;
   border: #d4d7dc;
+  color: green;
 }
 
 .ch {
+  font-size: 12px;
   align-items: center;
   display: flex ;
-  padding: 25px 30px;
+  padding: 2px 18px;
 }
 
 .int-mail {
-  margin: 30px;
+  margin: 20px;
+  position: relative;
 }
 
 .encabezado {
   margin: 30px;
-  font-size: 35px;
+  font-size: 20px;
 }
 .letraspeque {
-  margin: 30px;
-  text-align: left;
   font-size: 10px;
-  padding: 2px;
+  margin-left: 1px;
+  color: gray;
+}
+.littering {
+  font-style: italic;
 }
 
 .gray {
-  margin: 30px;
   text-align: center;
-  padding-bottom: 25px;
-  font-size: small;
-  padding: 12px;
+  font-size: 10px;
+  padding: 2px;
+  color: gray;
+  margin: 1px ;
 }
+
 .create {
+  font-size: 10px;
   margin: 30px;
   text-align: center;
 }
-.captcha {
-  font-size: 12px;
+
+.try {
+  padding: 20px 1px 1px 1px;
+}
+
+hr {
+  opacity: 30%;
+  border: 1;
+  border-top-width: 0px;
   display: block;
-  background-color: #d4d7dc;;
+  height: 1px;
+  margin: 15px 20px 0px 20px;
+}
+
+
+.captcha {
+  font-size: 10px;
+  display: block;
+  background-color: #eaedf0;
   text-align: center;
   color: grey;
   padding: 16px;
-  border-color: black;
 }
 
 .liLegal {
@@ -132,8 +172,11 @@ a {
 }
 
 .coLegal {
-  margin: 30px;
+  font-size: 12px;
+  margin: 10px;
   text-align: center;
+  display: block;
+  color: gray;
 }
 
 .sign-in {
@@ -151,7 +194,7 @@ a {
   display: block; 
   max-width: 100%;  
   border-radius: 5px; 
-  border-color: tomato; 
+  border-color: red ;
   font-size: 1.2em;
   min-width: 160px;
   box-shadow: 15px;
@@ -171,9 +214,11 @@ a {
 
 .lock-image {
   position: absolute;
-  top: 26px;
-  left: 113px;
+  top: 28px;
+  left: 125px;
+  border-radius: 100%;
 }
+  
 
 .flex {
   display: flex;
@@ -192,4 +237,12 @@ a {
 }
 .jc-c {
   justify-content: center;
+  ;
+}
+.t-al {
+  text-align: center;
+}
+
+.t-alfin {
+  text-align: end;
 }
